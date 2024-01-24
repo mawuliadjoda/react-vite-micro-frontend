@@ -10,7 +10,7 @@ export default defineConfig({
       name: "app",
       remotes: {
         remoteA: "http://localhost:4000/assets/remoteEntry.js",
-        remoteB: "http://localhost:4500/assets/remoteEntry.js",
+        remoteB: "http://localhost:5000/assets/remoteEntry.js",
       },
       shared: ['react', 'react-dom', 'react-router-dom'],
     })
